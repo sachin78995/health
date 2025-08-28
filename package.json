@@ -1,0 +1,33 @@
+{
+  "name": "healthguard-ai-companion",
+  "version": "1.0.0",
+  "description": "An intelligent AI health companion that proactively monitors your wellness, predicts risks, and provides personalized healthcare advice",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -s . -l 3000",
+    "dev": "npx serve -s . -l 3000",
+    "build": "echo 'Static site - no build needed'",
+    "serve": "npx serve -s . -l 3000",
+    "api": "node server.js"
+  },
+  "keywords": [
+    "healthcare",
+    "AI",
+    "telemedicine",
+    "health-tracking",
+    "medical-assistant"
+  ],
+  "author": "SACHIN SANK",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3"
+  }
+}
